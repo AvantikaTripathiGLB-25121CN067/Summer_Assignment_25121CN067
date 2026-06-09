@@ -6,7 +6,9 @@ else:
     for i in range(1,n):
         if(n%i==0):
             sum_of_divisors+=i
-if (sum_of_divisors==n):
-    print('perfect number')
-else:
-    print('no perfect number')
+    if (sum_of_divisors==n):
+        print('perfect number')
+    else:
+        print('not a perfect number')
+
+    
