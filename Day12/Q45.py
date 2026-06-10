@@ -9,5 +9,5 @@ def palindrome(n):
             reversed=reversed*10+d
             n//=10
         return original==reversed
-n=int(input('n'))
+n=int(input('n:'))
 print(palindrome(n))
