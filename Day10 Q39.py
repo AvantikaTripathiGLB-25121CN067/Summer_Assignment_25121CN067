@@ -9,14 +9,14 @@ while i <= rows:
         spaces += 1
         
     
-    j = i
-    while j < (2 * i):
+    j = 1
+    while j <=i:
         print(j, end=" ")
         j += 1
         
     
-    j = (2 * i) - 2
-    while j >= i:
+    j = i-1
+    while j >= 1:
         print(j, end=" ")
         j -= 1
         
