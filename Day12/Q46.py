@@ -1,4 +1,4 @@
-def armstrong(n):
+def armstrong_number(n):
     if(n<0):
         return'no result'
     else:
@@ -9,5 +9,5 @@ def armstrong(n):
             sum+=d**3
             n//=10
         return original==sum
-n=int(input('n'))
-print(armstrong(n))
+n=int(input('n:'))
+print(armstrong_number(n))
