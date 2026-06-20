@@ -1,5 +1,5 @@
-rows=int(input("enter number of rows"))
-columns=int(input("enter number of columns"))
+rows=int(input("enter number of rows:"))
+columns=int(input("enter number of columns:"))
 
 print("enter the elements of matrix a:")
 matrix_a=[[int(input(f"a[{i}][{j}]:")) for j in range(columns)] for i in range (rows)]
