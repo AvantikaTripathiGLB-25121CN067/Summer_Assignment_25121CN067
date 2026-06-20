@@ -10,4 +10,5 @@ for i in range(rows):
 
 for r in matrix:
     print(r)
+    
 print(diag_sum)
