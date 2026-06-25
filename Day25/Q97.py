@@ -1,7 +1,7 @@
-arr1=input("enter the values:").split()
-arr2=input("enter the values:").split()
+arr1=[int(x) for x in input("enter the values:").split()]
+arr2=[int(x) for x in input("enter the values:").split()]
 merged=[]
-
+ 
 i=0
 j=0
 
