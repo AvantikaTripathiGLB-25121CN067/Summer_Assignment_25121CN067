@@ -12,7 +12,7 @@ class NumberGuessingGame:
         else:
             return "correct! This is the secret number."
         
-game=NumberGuessingGame(secret_number=40)
+game=NumberGuessingGame(secret_number=42)
 print(game.make_guess(25))
 print(game.make_guess(45))
             
